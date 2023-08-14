@@ -1,0 +1,70 @@
+.dataTables_filter {
+	float: right !important;
+}
+.dataTables_paginate {
+	float: right !important;		
+}
+
+td.option a,
+.edit,
+.delete,
+.status {
+    cursor: pointer;
+    min-width: 33px;
+    background: #fff;
+    color: #a1a3a5;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    vertical-align: central;
+    text-align: center;
+    margin: 0 3px;
+    padding: 4px 0;
+    border: 1px solid #e2e7f1;
+    font-size: 15px;
+}
+
+td.option a:hover {
+    background: #2ac2d4;
+    color: #fff;
+    border: 1px solid #2ac2d4;
+}
+
+td a.status:has(.fa-check):hover {
+    background: #2ac2d4;
+    color: #fff;
+    border: 1px solid #2ac2d4;
+}
+
+td a.edit:hover {
+    background: #2ac2d4;
+    color: #fff;
+    border: 1px solid #2ac2d4;
+}
+
+td a.status:has(.fa-power-off) {
+    background: red;
+    color:#fff;
+}
+
+/*td a.status:has(.fa-check) {
+    background:green;
+    color:#fff;
+}*/
+
+td.option a.delete:hover {
+    background: #d9534f;
+    color: #fff;
+    border: 1px solid #d9534f;
+}
+
+td a.delete:hover {
+    background: #d9534f;
+    color: #fff;
+    border: 1px solid #d9534f;
+}
+
+.tr-active {
+    background-color: #2471a3;
+    color: white;
+}
